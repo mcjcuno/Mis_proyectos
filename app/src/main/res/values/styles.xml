@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="botones_funcionales">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>//altura minima
+        <item name="android:textColor">@color/colorbotontxt</item>
+        <item name="android:background">@drawable/func_botones_rrectangulares</item>
+    </style>
+
+    //numeros
+
+    <style name="botones_numeros">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>//altura minima
+        <item name="android:textColor">@color/colorNbotontxt</item>
+        <item name="android:background">@drawable/fun_botones_numeros</item>
+    </style>
+
+    <style name="botones_igual">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/color_igualbotontxt</item>
+        <item name="android:background">@drawable/func_boton_igual</item>
+    </style>
+
+</resources>
